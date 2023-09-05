@@ -6,6 +6,7 @@ import Image from "next/image";
 import { calculateCarRent, generateCarImageUrl } from "@/utils";
 import { CarProps } from "@/types";
 import CustomButton from "./CustomButton";
+import {CarDetails} from "@/components/index";
 
 interface CarCardProps {
     car: CarProps;
