@@ -1,5 +1,5 @@
 
-import {Hero} from "@/components";
+import {Hero, SearchBar} from "@/components";
 import {HomeProps} from "@/types";
 import {fetchCars} from "@/utils";
 
