@@ -2,13 +2,13 @@
 
 import { Fragment, useState } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import { Listbox, Transition } from "@headlessui/react";
 
 import { CustomFilterProps } from "@/types";
 // import { updateSearchParams } from "@/utils";
 
-export default ({title, options, setFilter}: CustomFilterProps) => {
+const CustomFilter =  ({options, setFilter}: CustomFilterProps) => {
     // const router = useRouter();
     const [selected, setSelected] = useState(options[0]); // State for storing the selected option
 
@@ -70,3 +70,5 @@ export default ({title, options, setFilter}: CustomFilterProps) => {
         </div>
     );
 }
+
+export default CustomFilter;
