@@ -192,7 +192,7 @@
 }
 
 .searchbar__item {
-    @apply flex-1 max-sm:w-full flex justify-start items-center relative;
+    @apply flex-1 max-sm:w-full flex justify-start items-center relative z-10;
 }
 
 .searchbar__input {
